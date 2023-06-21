@@ -1,15 +1,15 @@
 {
   "slides": [
     {
-      "src": "https://picsum.photos/seed/img1/600/400",
+      "src": "https://lh5.googleusercontent.com/xo6zDzj4Mq8JTuh31DRdzWPkmeekU1ykdvy7gmdGNkBnVzHoULgCA_MpL1ybOV2GKEkbvmswUl0iQW0lvnNQe3gqOFi_-bbt3MBzOAla29FvVN753jPZS87Bn7HyXoQ-dwA-ioYg",
       "alt": "Image 1 for carousel"
     },
     {
-      "src": "https://picsum.photos/seed/img2/600/400",
+      "src": "https://cdn.thomasnet.com/insights-images/eaf2ea91-c0ca-488d-ab63-af480b6f78cb/750px.png",
       "alt": "Image 2 for carousel"
     },
     {
-      "src": "https://picsum.photos/seed/img3/600/400",
+      "src": "https://moneyinc.com/wp-content/uploads/2018/11/Willow-750x500.jpg",
       "alt": "Image 3 for carousel"
     }
   ]
