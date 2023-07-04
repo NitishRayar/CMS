@@ -5,7 +5,7 @@ const Header = (props) => {
   return (
     <Fragment>
       <header className="header">
-        <h1>CMS</h1>
+        <h1>M R Patil</h1>
       </header>
     </Fragment>
   );
