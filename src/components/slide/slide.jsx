@@ -11,9 +11,7 @@ const Slide = () => {
   function handleChange(index) {
     setCurrentIndex(index);
   }
-  const renderImage = (image) => {
-    return new URL(image, import.meta.url);
-  };
+  
   const renderSlides = images.map((image) => {
     return (
       <div key={image.alt} className={classes.image}>
@@ -22,7 +20,7 @@ const Slide = () => {
           alt={image.alt}
           style={{ width: "100%", height: "60vh" }}
         />
-        <p className="legend">{image.label}</p>
+        {/* <p className="legend">{image.label}</p> */}
       </div>
     );
   });
