@@ -1,15 +1,14 @@
 import "./App.css";
-import About from "./components/about/about";
-import AchievementCardComponent from "./components/achievements/achievement";
-import ButtonComponent from "./components/button/buttonComponent";
-import Slide from "./components/slide/slide";
-import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Report from "./pages/report";
 import Service from "./pages/service";
+import Category from "./pages/category";
+import Person from "./pages/person";
+import Place from "./pages/place";
+import Ward from "./pages/ward";
 
 function App() {
   return (
@@ -20,6 +19,10 @@ function App() {
         <Route path="/home" element= {<Home/>} />
         <Route path="/report" element= {<Report/>} />
         <Route path="/service" element= {<Service/>} />
+        <Route path="/category" element= {<Category/>} />
+        <Route path="/person" element= {<Person/>} />
+        <Route path="/place" element= {<Place/>} />
+        <Route path="/ward" element= {<Ward/>} />
       </Routes>
     </>
   );

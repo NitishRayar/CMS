@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import * as Icons from "react-icons/fa";
 import "./navbar.css";
-import { navItems, toolsDropdown } from "./navItems";
+import { navItems, serviceDropdown, toolsDropdown } from "./navItems";
 import Button from "./button";
 import Dropdown from "./dropdown";
 
 
 function Navbar() {
   // const [report, setReport] = useState(false);
-  // const [service, setService] = useState(false);
+  const [service, setService] = useState(false);
   const [tools, setTools] = useState(false);
 
   return (
@@ -17,6 +17,19 @@ function Navbar() {
       <nav className="navbar-main">
         <ul className="nav-items">
           {navItems.map((item) => {
+             if (item.title === "Services") {
+              return (
+                <li
+                  key={item.id}
+                  className={item.cName}
+                  onMouseEnter={() => setService(true)}
+                  onMouseLeave={() => setService(false)}
+                >
+                  <Link to={item.path}>{item.title}</Link>
+                  {service && <Dropdown dropdownItems={serviceDropdown}/>}
+                </li>
+              );
+            }
             if (item.title === "Tools") {
               return (
                 <li
