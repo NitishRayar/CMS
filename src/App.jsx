@@ -3,13 +3,13 @@ import Header from "./components/header/header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
-import Report from "./pages/report";
+import Report from "./components/report/report";
 import Service from "./pages/service";
 import Category from "./pages/category";
 import Person from "./pages/person";
 import Place from "./pages/place";
 import Ward from "./pages/ward";
-
+import './index.css'; // Import Tailwind CSS file
 function App() {
   return (
     <>

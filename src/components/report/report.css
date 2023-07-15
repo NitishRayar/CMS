@@ -1,0 +1,90 @@
+/* report.css */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+  margin: 10px;
+}
+
+.div-20 {
+  height: 20%;
+  background-color: #f2f2f2;
+}
+
+.div-8 {
+  height: 8%;
+  background-color: #f2f2f2;
+}
+
+.div-75 {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: blanchedalmond;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #9b9b9b;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.button {
+  padding: 15px 30px;
+  background-color: #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  color: black;
+  margin: 4px 5px 4px 15px;
+  border: solid 1px #878787;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.generate-container {
+  position: relative;
+  flex-grow: 1;
+  background-color: #e6e6e6;
+}
+
+.generate-button {
+  position: absolute;
+  top: -40px;
+  right: 0px;
+  padding: 8px 16px;
+  background-color: #151515;
+  color: #fff;
+  border: none;
+  border-radius: 6px 6px 0px 1px;
+}
+
+.generate-button:hover {
+  background-color: #cccccc;
+  color: #151515;
+}
+
+.content-container {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #cccccc;
+  border-radius: 0px 0px 10px 10px;
+  border: solid 1px #b4b4b4;
+}
+
+.content-container span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.report-name-p {
+  font-size: 1.5em;
+}
