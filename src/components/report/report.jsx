@@ -1,27 +1,53 @@
 import React, { useState } from "react";
-import "./report.css"; // Import the CSS file for styling
 import IndividualPopup from "../../popups/IndividualPopup";
+import "./report.css"; // Import the CSS file for styling
+import General from "./forms/General/General";
 
-const Report = (props) => {
-  const [showIndividualPopup, setShowIndividualPopup] = useState(false);
+const Report = props => {
+  const [isButtonClicked, setIsButtonClicked] = useState(false),
+    [showIndividualPopup, setShowIndividualPopup] = useState(false),
+    [showGeneralForm, setShowGeneralForm] = useState(false);
 
   const openIndividualPopup = () => {
+    setIsButtonClicked(true);
     setShowIndividualPopup(true);
   };
 
   const closeIndividualPopup = () => {
+    setIsButtonClicked(false);
     setShowIndividualPopup(false);
+  };
+
+  const openGeneralForm = () => {
+    setIsButtonClicked(true);
+    setShowGeneralForm(true);
+  };
+
+  const closeGeneralForm = () => {
+    setIsButtonClicked(false);
+    setShowGeneralForm(false);
   };
 
   return (
     <div className="main-container">
       <div className="div-20">
-        {" "}
         <div className="button-container">
-          <div className="button" onClick={openIndividualPopup}>
-            Individual
-          </div>
-          <div className="button">General</div>
+          {!isButtonClicked && (
+            <>
+              <div className="button" onClick={openIndividualPopup}>
+                Individual
+              </div>
+              <div className="button" onClick={openGeneralForm}>
+                General
+              </div>
+            </>
+          )}
+          {isButtonClicked && showIndividualPopup && (
+            <IndividualPopup onClose={closeIndividualPopup} />
+          )}
+          {isButtonClicked && showGeneralForm && (
+            <General onClose={closeGeneralForm} />
+          )}
         </div>
       </div>
       <div className="div-75">
@@ -81,8 +107,8 @@ const Report = (props) => {
           </span>
         </div>
       </div>
-      {showIndividualPopup && (
-        <IndividualPopup onClose={closeIndividualPopup} />
+      {isButtonClicked && showGeneralForm && (
+        <div>General Form should be here</div>
       )}
     </div>
   );
