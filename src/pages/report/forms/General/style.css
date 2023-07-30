@@ -11,7 +11,7 @@
   padding: 8px;
 }
 
-.general-form-inputContainer > input,
+.general-form-inputContainer > span,
 .general-form-inputContainer > select {
   border-radius: 4px;
   margin-right: 40px;

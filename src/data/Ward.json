@@ -1,0 +1,211 @@
+[
+    {
+        "wardId": 1,
+        "wardCode": "WD-01",
+        "placeCode": "PL-01",
+        "wardName": "WARD-1",
+        "wardNameK": "ವಾರ್ಡ್-1",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 2,
+        "wardCode": "WD-02",
+        "placeCode": "PL-01",
+        "wardName": "WARD-2",
+        "wardNameK": "ವಾರ್ಡ್-2",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 3,
+        "wardCode": "WD-03",
+        "placeCode": "PL-01",
+        "wardName": "WARD-3",
+        "wardNameK": "ವಾರ್ಡ್-3",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 4,
+        "wardCode": "WD-04",
+        "placeCode": "PL-01",
+        "wardName": "WARD-4",
+        "wardNameK": "ವಾರ್ಡ್-4",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 5,
+        "wardCode": "WD-05",
+        "placeCode": "PL-01",
+        "wardName": "WARD-5",
+        "wardNameK": "ವಾರ್ಡ್-5",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 6,
+        "wardCode": "WD-06",
+        "placeCode": "PL-01",
+        "wardName": "WARD-6",
+        "wardNameK": "ವಾರ್ಡ್-6",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 7,
+        "wardCode": "WD-07",
+        "placeCode": "PL-01",
+        "wardName": "WARD-7",
+        "wardNameK": "ವಾರ್ಡ್-7",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 8,
+        "wardCode": "WD-08",
+        "placeCode": "PL-01",
+        "wardName": "WARD-8",
+        "wardNameK": "ವಾರ್ಡ್-8",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 9,
+        "wardCode": "WD-09",
+        "placeCode": "PL-01",
+        "wardName": "WARD-9",
+        "wardNameK": "ವಾರ್ಡ್-9",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 10,
+        "wardCode": "WD-10",
+        "placeCode": "PL-01",
+        "wardName": "WARD-10",
+        "wardNameK": "ವಾರ್ಡ್-10",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 13,
+        "wardCode": "WD-1",
+        "placeCode": "PL-02",
+        "wardName": "WARD-1",
+        "wardNameK": "ವಾರ್ಡ್-1",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 14,
+        "wardCode": "WD-2",
+        "placeCode": "PL-02",
+        "wardName": "WARD-2",
+        "wardNameK": "ವಾರ್ಡ್-2",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 15,
+        "wardCode": "WD-3",
+        "placeCode": "PL-02",
+        "wardName": "WARD-3",
+        "wardNameK": "ವಾರ್ಡ್-3",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 16,
+        "wardCode": "WD-4",
+        "placeCode": "PL-02",
+        "wardName": "WARD-4",
+        "wardNameK": "ವಾರ್ಡ್-4",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 17,
+        "wardCode": "WD-5",
+        "placeCode": "PL-02",
+        "wardName": "WARD-5",
+        "wardNameK": "ವಾರ್ಡ್-5",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 18,
+        "wardCode": "WD-6",
+        "placeCode": "PL-02",
+        "wardName": "WARD-6",
+        "wardNameK": "ವಾರ್ಡ್-6",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 19,
+        "wardCode": "WD-7",
+        "placeCode": "PL-02",
+        "wardName": "WARD-7",
+        "wardNameK": "ವಾರ್ಡ್-7",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 22,
+        "wardCode": "WD-ALL",
+        "placeCode": "PL-02",
+        "wardName": "WD-ALL",
+        "wardNameK": "WD-ALL",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    },
+    {
+        "wardId": 23,
+        "wardCode": "WD-ALL",
+        "placeCode": "PL-01",
+        "wardName": "WD-ALL",
+        "wardNameK": "WD-ALL",
+        "createdBy": 1,
+        "createdDate": "2023-07-07",
+        "updatedBy": null,
+        "updatedDate": null
+    }
+]
