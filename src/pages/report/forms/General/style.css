@@ -1,0 +1,30 @@
+.general-popup-container {
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.general-form {
+  justify-content: left;
+}
+
+.general-form-inputContainer {
+  padding: 8px;
+}
+
+.general-form-inputContainer > input,
+.general-form-inputContainer > select {
+  border-radius: 4px;
+  margin-right: 40px;
+  min-width: 250px;
+  min-height: 40px;
+  padding: 8px;
+}
+
+.general-close,
+.general-search {
+  padding: 4px 8px;
+  margin: 8px;
+  border-radius: 4px;
+  min-height: 40px;
+  min-width: 100px;
+}

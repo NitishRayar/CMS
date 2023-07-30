@@ -1,5 +1,5 @@
 import React from "react";
-// import "./individual-popup.css"; // Import the CSS file for styling
+import "./individual-popup.css"; // Import the CSS file for styling
 
 const IndividualPopup = ({ onClose }) => {
   return (

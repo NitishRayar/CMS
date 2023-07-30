@@ -107,9 +107,6 @@ const Report = props => {
           </span>
         </div>
       </div>
-      {isButtonClicked && showGeneralForm && (
-        <div>General Form should be here</div>
-      )}
     </div>
   );
 };
