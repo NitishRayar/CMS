@@ -7,9 +7,10 @@ const Category =()=>{
     const [showAddCategory, setAddCategory] = useState(false);
     useEffect( ()=>{
         const getcategories= async()=>{
-            const reqData= await fetch("https://cms-project-73d0b-default-rtdb.asia-southeast1.firebasedatabase.app/category.json");
+            // const reqData= await fetch("https://cms-project-73d0b-default-rtdb.asia-southeast1.firebasedatabase.app/category.json");
+            const reqData= await fetch("http://localhost:8082/categories");
             const resData= await reqData.json();
-            setCategories(resData.categories);
+            setCategories(resData);
            console.log(resData);
         }
         getcategories();
@@ -35,8 +36,8 @@ const Category =()=>{
                         <thead>
                         <tr>
                         <th>Sr. No</th>
-                        <th>Name</th>
-                        <th>Name Kannada</th>
+                        <th>Category Name</th>
+                        <th>Category Name(Kannada)</th>
                         <th>Code</th>
                         <th>Created Date</th>
                         <th>Action</th>
@@ -46,10 +47,10 @@ const Category =()=>{
                          { categories.map( (category, index)=>(                           
                         <tr key={index}>
                         <td>{index+1} </td>
-                        <td>{ category.name } </td>
-                        <td>{ category.name_k } </td>
-                        <td>{ category.code } </td>
-                        <td>{ category.created_date } </td>
+                        <td>{ category.categoryName } </td>
+                        <td>{ category.categoryNameK } </td>
+                        <td>{ category.categoryCode } </td>
+                        <td>{ category.createdDate } </td>
                         <td>
                          <div className="btn btn-success mx-2" onClick={openAddCategoryForm}>Edit</div>
                          <Link to="/deleteUser" className="btn btn-danger">Delete</Link>

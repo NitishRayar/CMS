@@ -3,7 +3,7 @@ import Header from "./components/header/header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
-import Service from "./pages/service";
+import Service from "./components/service/service";
 import Category from "./pages/category";
 import Person from "./pages/person";
 import Place from "./pages/place";
