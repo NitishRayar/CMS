@@ -8,7 +8,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 2,
@@ -19,7 +20,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 3,
@@ -30,7 +32,23 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": [
+            {
+                "personId": 1,
+                "placeCode": "PL-01",
+                "wardCode": "WD-03",
+                "personName": "Vishwa Basavaraj Tadasur",
+                "personNameK": "ವಿಶ್ವ ಬಸವರಾಜ ತಡಸೂರ",
+                "address": "ಮಾರ್ಕೆಟ್ ರಸ್ತೆ ಕುಂದಗೋಳ",
+                "aadhaarNo": "1234567812345678",
+                "contactNo": "9538985701",
+                "createdBy": 1,
+                "createdDate": "2023-07-12",
+                "updatedBy": null,
+                "updatedDate": null
+            }
+        ]
     },
     {
         "wardId": 4,
@@ -41,7 +59,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 5,
@@ -52,7 +71,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 6,
@@ -63,7 +83,23 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": [
+            {
+                "personId": 2,
+                "placeCode": "PL-01",
+                "wardCode": "WD-06",
+                "personName": "Tippanna kammar",
+                "personNameK": "ತಿಪ್ಪಣ್ಣ ಕಮ್ಮಾರ್",
+                "address": "ದುರ್ಗಾ ದೇವಿ ಓಣಿ ಕುಂದಗೋಳ",
+                "aadhaarNo": "5678123412345678",
+                "contactNo": "9845762518",
+                "createdBy": 1,
+                "createdDate": "2023-07-12",
+                "updatedBy": null,
+                "updatedDate": null
+            }
+        ]
     },
     {
         "wardId": 7,
@@ -74,7 +110,23 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": [
+            {
+                "personId": 3,
+                "placeCode": "PL-01",
+                "wardCode": "WD-07",
+                "personName": "Gangadhar Kallur",
+                "personNameK": "ಗಂಗಾಧರ್ ಕಲ್ಲೂರ್",
+                "address": "ಕುರಬಗೇರಿ ಕುಂದಗೋಳ",
+                "aadhaarNo": "1234567891011",
+                "contactNo": "944862561",
+                "createdBy": 1,
+                "createdDate": "2023-07-12",
+                "updatedBy": null,
+                "updatedDate": null
+            }
+        ]
     },
     {
         "wardId": 8,
@@ -85,7 +137,23 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": [
+            {
+                "personId": 4,
+                "placeCode": "PL-01",
+                "wardCode": "WD-08",
+                "personName": "Girish Chavvan",
+                "personNameK": "ಗಿರೀಶ್ ಚವ್ಹಾಣ್",
+                "address": "ಶಿವಾಜಿ ನಗರ್  ಕುಂದಗೋಳ.",
+                "aadhaarNo": "10111213141516",
+                "contactNo": "9765259854",
+                "createdBy": 1,
+                "createdDate": "2023-07-12",
+                "updatedBy": null,
+                "updatedDate": null
+            }
+        ]
     },
     {
         "wardId": 9,
@@ -96,7 +164,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 10,
@@ -107,7 +176,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 13,
@@ -118,7 +188,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 14,
@@ -129,7 +200,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 15,
@@ -140,7 +212,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 16,
@@ -151,7 +224,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 17,
@@ -162,7 +236,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 18,
@@ -173,7 +248,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 19,
@@ -184,7 +260,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 22,
@@ -195,7 +272,8 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     },
     {
         "wardId": 23,
@@ -206,6 +284,7 @@
         "createdBy": 1,
         "createdDate": "2023-07-07",
         "updatedBy": null,
-        "updatedDate": null
+        "updatedDate": null,
+        "personList": []
     }
 ]

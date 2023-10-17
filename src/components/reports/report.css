@@ -85,6 +85,10 @@
   margin-bottom: 10px;
 }
 
+.content-container p {
+  color: var(--bs-body-color);
+}
+
 .report-name-p {
   font-size: 1.5em;
 }

@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <Fragment>
       <header className="header">
-        <h1>M R Patil</h1>
+        <h1>ಜನ ಸೇವಕ</h1>
         
         <Navbar/>
       </header>

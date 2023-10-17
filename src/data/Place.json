@@ -1,6 +1,5 @@
-{
-  "Places": [
-    {
+[
+  {
       "placeId": 1,
       "placeCode": "PL-01",
       "placeName": "Kundgol",
@@ -10,130 +9,201 @@
       "updatedBy": null,
       "updatedDate": null,
       "wards": [
-        {
-          "wardId": 1,
-          "wardCode": "WD-01",
-          "placeCode": "PL-01",
-          "wardName": "WARD-1",
-          "wardNameK": "ವಾರ್ಡ್-1",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 2,
-          "wardCode": "WD-02",
-          "placeCode": "PL-01",
-          "wardName": "WARD-2",
-          "wardNameK": "ವಾರ್ಡ್-2",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 3,
-          "wardCode": "WD-03",
-          "placeCode": "PL-01",
-          "wardName": "WARD-3",
-          "wardNameK": "ವಾರ್ಡ್-3",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 4,
-          "wardCode": "WD-04",
-          "placeCode": "PL-01",
-          "wardName": "WARD-4",
-          "wardNameK": "ವಾರ್ಡ್-4",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 5,
-          "wardCode": "WD-05",
-          "placeCode": "PL-01",
-          "wardName": "WARD-5",
-          "wardNameK": "ವಾರ್ಡ್-5",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 6,
-          "wardCode": "WD-06",
-          "placeCode": "PL-01",
-          "wardName": "WARD-6",
-          "wardNameK": "ವಾರ್ಡ್-6",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 7,
-          "wardCode": "WD-07",
-          "placeCode": "PL-01",
-          "wardName": "WARD-7",
-          "wardNameK": "ವಾರ್ಡ್-7",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 8,
-          "wardCode": "WD-08",
-          "placeCode": "PL-01",
-          "wardName": "WARD-8",
-          "wardNameK": "ವಾರ್ಡ್-8",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 9,
-          "wardCode": "WD-09",
-          "placeCode": "PL-01",
-          "wardName": "WARD-9",
-          "wardNameK": "ವಾರ್ಡ್-9",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 10,
-          "wardCode": "WD-10",
-          "placeCode": "PL-01",
-          "wardName": "WARD-10",
-          "wardNameK": "ವಾರ್ಡ್-10",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 23,
-          "wardCode": "WD-ALL",
-          "placeCode": "PL-01",
-          "wardName": "WD-ALL",
-          "wardNameK": "WD-ALL",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        }
+          {
+              "wardId": 1,
+              "wardCode": "WD-01",
+              "placeCode": "PL-01",
+              "wardName": "WARD-1",
+              "wardNameK": "ವಾರ್ಡ್-1",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 2,
+              "wardCode": "WD-02",
+              "placeCode": "PL-01",
+              "wardName": "WARD-2",
+              "wardNameK": "ವಾರ್ಡ್-2",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 3,
+              "wardCode": "WD-03",
+              "placeCode": "PL-01",
+              "wardName": "WARD-3",
+              "wardNameK": "ವಾರ್ಡ್-3",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": [
+                  {
+                      "personId": 1,
+                      "placeCode": "PL-01",
+                      "wardCode": "WD-03",
+                      "personName": "Vishwa Basavaraj Tadasur",
+                      "personNameK": "ವಿಶ್ವ ಬಸವರಾಜ ತಡಸೂರ",
+                      "address": "ಮಾರ್ಕೆಟ್ ರಸ್ತೆ ಕುಂದಗೋಳ",
+                      "aadhaarNo": "1234567812345678",
+                      "contactNo": "9538985701",
+                      "createdBy": 1,
+                      "createdDate": "2023-07-12",
+                      "updatedBy": null,
+                      "updatedDate": null
+                  }
+              ]
+          },
+          {
+              "wardId": 4,
+              "wardCode": "WD-04",
+              "placeCode": "PL-01",
+              "wardName": "WARD-4",
+              "wardNameK": "ವಾರ್ಡ್-4",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 5,
+              "wardCode": "WD-05",
+              "placeCode": "PL-01",
+              "wardName": "WARD-5",
+              "wardNameK": "ವಾರ್ಡ್-5",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 6,
+              "wardCode": "WD-06",
+              "placeCode": "PL-01",
+              "wardName": "WARD-6",
+              "wardNameK": "ವಾರ್ಡ್-6",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": [
+                  {
+                      "personId": 2,
+                      "placeCode": "PL-01",
+                      "wardCode": "WD-06",
+                      "personName": "Tippanna kammar",
+                      "personNameK": "ತಿಪ್ಪಣ್ಣ ಕಮ್ಮಾರ್",
+                      "address": "ದುರ್ಗಾ ದೇವಿ ಓಣಿ ಕುಂದಗೋಳ",
+                      "aadhaarNo": "5678123412345678",
+                      "contactNo": "9845762518",
+                      "createdBy": 1,
+                      "createdDate": "2023-07-12",
+                      "updatedBy": null,
+                      "updatedDate": null
+                  }
+              ]
+          },
+          {
+              "wardId": 7,
+              "wardCode": "WD-07",
+              "placeCode": "PL-01",
+              "wardName": "WARD-7",
+              "wardNameK": "ವಾರ್ಡ್-7",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": [
+                  {
+                      "personId": 3,
+                      "placeCode": "PL-01",
+                      "wardCode": "WD-07",
+                      "personName": "Gangadhar Kallur",
+                      "personNameK": "ಗಂಗಾಧರ್ ಕಲ್ಲೂರ್",
+                      "address": "ಕುರಬಗೇರಿ ಕುಂದಗೋಳ",
+                      "aadhaarNo": "1234567891011",
+                      "contactNo": "944862561",
+                      "createdBy": 1,
+                      "createdDate": "2023-07-12",
+                      "updatedBy": null,
+                      "updatedDate": null
+                  }
+              ]
+          },
+          {
+              "wardId": 8,
+              "wardCode": "WD-08",
+              "placeCode": "PL-01",
+              "wardName": "WARD-8",
+              "wardNameK": "ವಾರ್ಡ್-8",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": [
+                  {
+                      "personId": 4,
+                      "placeCode": "PL-01",
+                      "wardCode": "WD-08",
+                      "personName": "Girish Chavvan",
+                      "personNameK": "ಗಿರೀಶ್ ಚವ್ಹಾಣ್",
+                      "address": "ಶಿವಾಜಿ ನಗರ್  ಕುಂದಗೋಳ.",
+                      "aadhaarNo": "10111213141516",
+                      "contactNo": "9765259854",
+                      "createdBy": 1,
+                      "createdDate": "2023-07-12",
+                      "updatedBy": null,
+                      "updatedDate": null
+                  }
+              ]
+          },
+          {
+              "wardId": 9,
+              "wardCode": "WD-09",
+              "placeCode": "PL-01",
+              "wardName": "WARD-9",
+              "wardNameK": "ವಾರ್ಡ್-9",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 10,
+              "wardCode": "WD-10",
+              "placeCode": "PL-01",
+              "wardName": "WARD-10",
+              "wardNameK": "ವಾರ್ಡ್-10",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 23,
+              "wardCode": "WD-ALL",
+              "placeCode": "PL-01",
+              "wardName": "WD-ALL",
+              "wardNameK": "WD-ALL",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          }
       ]
-    },
-    {
+  },
+  {
       "placeId": 2,
       "placeCode": "PL-02",
       "placeName": "Samshi",
@@ -143,97 +213,105 @@
       "updatedBy": null,
       "updatedDate": null,
       "wards": [
-        {
-          "wardId": 13,
-          "wardCode": "WD-1",
-          "placeCode": "PL-02",
-          "wardName": "WARD-1",
-          "wardNameK": "ವಾರ್ಡ್-1",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 14,
-          "wardCode": "WD-2",
-          "placeCode": "PL-02",
-          "wardName": "WARD-2",
-          "wardNameK": "ವಾರ್ಡ್-2",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 15,
-          "wardCode": "WD-3",
-          "placeCode": "PL-02",
-          "wardName": "WARD-3",
-          "wardNameK": "ವಾರ್ಡ್-3",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 16,
-          "wardCode": "WD-4",
-          "placeCode": "PL-02",
-          "wardName": "WARD-4",
-          "wardNameK": "ವಾರ್ಡ್-4",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 17,
-          "wardCode": "WD-5",
-          "placeCode": "PL-02",
-          "wardName": "WARD-5",
-          "wardNameK": "ವಾರ್ಡ್-5",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 18,
-          "wardCode": "WD-6",
-          "placeCode": "PL-02",
-          "wardName": "WARD-6",
-          "wardNameK": "ವಾರ್ಡ್-6",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 19,
-          "wardCode": "WD-7",
-          "placeCode": "PL-02",
-          "wardName": "WARD-7",
-          "wardNameK": "ವಾರ್ಡ್-7",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        },
-        {
-          "wardId": 22,
-          "wardCode": "WD-ALL",
-          "placeCode": "PL-02",
-          "wardName": "WD-ALL",
-          "wardNameK": "WD-ALL",
-          "createdBy": 1,
-          "createdDate": "2023-07-07",
-          "updatedBy": null,
-          "updatedDate": null
-        }
+          {
+              "wardId": 13,
+              "wardCode": "WD-1",
+              "placeCode": "PL-02",
+              "wardName": "WARD-1",
+              "wardNameK": "ವಾರ್ಡ್-1",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 14,
+              "wardCode": "WD-2",
+              "placeCode": "PL-02",
+              "wardName": "WARD-2",
+              "wardNameK": "ವಾರ್ಡ್-2",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 15,
+              "wardCode": "WD-3",
+              "placeCode": "PL-02",
+              "wardName": "WARD-3",
+              "wardNameK": "ವಾರ್ಡ್-3",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 16,
+              "wardCode": "WD-4",
+              "placeCode": "PL-02",
+              "wardName": "WARD-4",
+              "wardNameK": "ವಾರ್ಡ್-4",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 17,
+              "wardCode": "WD-5",
+              "placeCode": "PL-02",
+              "wardName": "WARD-5",
+              "wardNameK": "ವಾರ್ಡ್-5",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 18,
+              "wardCode": "WD-6",
+              "placeCode": "PL-02",
+              "wardName": "WARD-6",
+              "wardNameK": "ವಾರ್ಡ್-6",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 19,
+              "wardCode": "WD-7",
+              "placeCode": "PL-02",
+              "wardName": "WARD-7",
+              "wardNameK": "ವಾರ್ಡ್-7",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          },
+          {
+              "wardId": 22,
+              "wardCode": "WD-ALL",
+              "placeCode": "PL-02",
+              "wardName": "WD-ALL",
+              "wardNameK": "WD-ALL",
+              "createdBy": 1,
+              "createdDate": "2023-07-07",
+              "updatedBy": null,
+              "updatedDate": null,
+              "personList": []
+          }
       ]
-    },
-    {
+  },
+  {
       "placeId": 3,
       "placeCode": "PL-03",
       "placeName": "Kamdolli",
@@ -243,8 +321,8 @@
       "updatedBy": null,
       "updatedDate": null,
       "wards": []
-    },
-    {
+  },
+  {
       "placeId": 4,
       "placeCode": "PL-04",
       "placeName": "Yaliwala",
@@ -254,8 +332,8 @@
       "updatedBy": null,
       "updatedDate": null,
       "wards": []
-    },
-    {
+  },
+  {
       "placeId": 5,
       "placeCode": "PL-05",
       "placeName": "Gudgeri",
@@ -265,8 +343,8 @@
       "updatedBy": null,
       "updatedDate": null,
       "wards": []
-    },
-    {
+  },
+  {
       "placeId": 7,
       "placeCode": "PL-ALL",
       "placeName": "ALL",
@@ -276,6 +354,5 @@
       "updatedBy": null,
       "updatedDate": null,
       "wards": []
-    }
-  ]
-}
+  }
+]

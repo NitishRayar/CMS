@@ -2,14 +2,14 @@ import "./App.css";
 import Header from "./components/header/header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navigate, Route, Routes } from "react-router-dom";
-import Home from "./pages/home";
-import Service from "./components/service/service";
-import Category from "./pages/category";
-import Person from "./pages/person";
-import Place from "./pages/place";
-import Ward from "./pages/ward";
+import Home from "./components/home";
+import Service from "./components/services/service";
+import Person from "./components/services/people/person";
+import Place from "./components/tools/place";
+import Ward from "./components/tools/ward";
 import './index.css'; // Import Tailwind CSS file
-import Report from "./pages/report/report";
+import Report from "./components/reports/report";
+import { Category } from "./components/services/categories/category";
 function App() {
   return (
     <>
