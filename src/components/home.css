@@ -1,0 +1,17 @@
+.cms-image-slider,
+.cms-about,
+.cms-achievemetns,
+.cms-feature-events {
+  max-height: 500px;
+  padding: 16px;
+}
+
+.cms-achievemetns,
+.cms-feature-events {
+  overflow-y: scroll;
+}
+
+.cms-image-slider,
+.cms-achievemetns {
+  background-color: #ff8c1a;
+}

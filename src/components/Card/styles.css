@@ -1,0 +1,21 @@
+.cms-card-container {
+  display: inline-flex;
+}
+
+.cms-card {
+  width: 320px;
+  height: 350px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.cms-card-title {
+  font-size: 24px;
+}
+
+.cms-card-content {
+  font-size: 14px;
+  justify-content: center;
+}

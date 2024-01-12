@@ -3,12 +3,12 @@
     {
       "label": "Image 1",
       "alt": "image1",
-      "url": "/src/assets/Highway-Construction.jpg"
+      "url": "/src/assets/slide1.jpg"
     },
     {
       "label": "Image 2",
       "alt": "image2",
-      "url": "/src/assets/indias_longest_bridge.jpg"
+      "url": "/src/assets/slide2.jpg"
     }
   ]
 }

@@ -1,26 +1,61 @@
-import React, { Fragment } from "react";
-import "./header.css";
-import Navbar from "./navbar";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import { navItems, serviceDropdown, toolsDropdown } from "./navItems";
 
-const Header = (props) => {
+function Header() {
   return (
-    <Fragment>
-      <header className="header">
-        <h1>ಜನ ಸೇವಕ</h1>
-        
-        <Navbar/>
-      </header>
-    </Fragment>
-    // <Fragment>
-    //   <header className={classes.header}>
-    //     <h1>React Meals</h1>
-    //     <HeaderCartButton onShowCart={props.onShowCart}/>
-    //   </header>
-    //   <div className={classes["main-image"]}>
-    //     <img src={mealsImage} alt="A table full of delicious food!" />
-    //   </div>
-    // </Fragment>
+    <Navbar expand="lg" className="cms-header" bg="dark" data-bs-theme="dark">
+      <Container>
+        <Navbar.Brand href="/home" className="cms-header-logo">
+          ಜನ ಸೇವಕ
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            {navItems.map(item => {
+              return item.path ? (
+                <Nav.Link
+                  key={item.title}
+                  href={item.path}
+                  className={item.cName}
+                >
+                  {item.title}
+                </Nav.Link>
+              ) : (
+                <NavDropdown key={item.title} title={item.title}>
+                  {(item.title === "Services"
+                    ? serviceDropdown
+                    : toolsDropdown
+                  ).map((option, i) => {
+                    return (
+                      <>
+                        {i !== 0 && <NavDropdown.Divider />}
+                        <NavDropdown.Item
+                          key={option.title}
+                          href={option.path}
+                          className={option.cName}
+                        >
+                          {option.title}
+                        </NavDropdown.Item>
+                      </>
+                    );
+                  })}
+                </NavDropdown>
+              );
+            })}
+          </Nav>
+          <Nav className="justify-content-end">
+            <Nav.Link href="#signup" className="signup">
+              <Button variant="outline-light">Sign Up</Button>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
-};
+}
 
 export default Header;

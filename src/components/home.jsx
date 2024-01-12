@@ -1,25 +1,32 @@
-import { Fragment } from "react";
-import About from "./about/about";
-import AchievementCardComponent from "./achievements/achievement";
-import ButtonComponent from "./button/buttonComponent";
+import Button from "react-bootstrap/Button";
 import Slide from "./slide/slide";
+import About from "./about/about";
+import Card from "./Card/Card";
 import Footer from "./footer/footer";
+import "./home.css";
+import { achievements } from "../data/constants";
 
 const Home = () => {
   return (
-    <Fragment>
-      <Slide />
-      <div>
+    <>
+      <div className="cms-image-slider">
+        <Slide />
+      </div>
+      <div className="cms-about">
         <About />
       </div>
-      <div>
-        <ButtonComponent label="Our Achievements" />
+      <div className="cms-achievemetns">
+        <Button variant="dark">Our Achievements</Button>
+        <Card data={achievements} background="#fff" color="#1a1a1a" />
       </div>
-      <AchievementCardComponent />
-      <ButtonComponent label="Feature Events" />
-      <AchievementCardComponent />
-      <Footer />
-    </Fragment>
+      <div className="cms-feature-events">
+        <Button variant="dark">Feature Events</Button>
+        <Card data={achievements} background="#1a1a1a" color="#ff8c1a" />
+      </div>
+      <div className="cms-footer">
+        <Footer />
+      </div>
+    </>
   );
 };
 

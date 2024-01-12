@@ -12,6 +12,10 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 10;
 }
-.header div { 
+.header div {
   width: fit-content;
+}
+
+.cms-header-logo {
+  font-size: 2rem !important;
 }
