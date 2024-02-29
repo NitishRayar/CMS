@@ -9,6 +9,8 @@ import Ward from "./components/tools/ward";
 import "./index.css"; // Import Tailwind CSS file
 import Report from "./components/reports/report";
 import { Category } from "./components/services/categories/category";
+import SignIn from "./components/SignIn/sign-in";
+
 function App() {
   return (
     <>
@@ -16,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Navigate replace to="/home" />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/signin" element={<SignIn />} />
         <Route path="/report" element={<Report />} />
         <Route path="/service" element={<Service />} />
         <Route path="/category" element={<Category />} />

@@ -18,18 +18,12 @@ export const navItems = [
   },
   {
     id: 4,
-    title: "Tools",
+    title: "Master Data",
     cName: "nav-item"
   }
 ];
 
 export const serviceDropdown = [
-  {
-    id: 1,
-    title: "Category",
-    path: "./category",
-    cName: "submenu-item"
-  },
   {
     id: 2,
     title: "Person",
@@ -68,6 +62,12 @@ export const toolsDropdown = [
     id: 2,
     title: "Ward",
     path: "./ward",
+    cName: "submenu-item"
+  },
+  {
+    id: 3,
+    title: "Category",
+    path: "./category",
     cName: "submenu-item"
   }
 ];

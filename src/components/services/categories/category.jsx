@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "@fortawesome/fontawesome-free/js/all.js";
 import { DynamicTable } from "../../table/dynamicTable";
+import { categoriesData } from "../../../data/Categories";
 
 export const Category = () => {
   const [categories, setCategories] = useState([]);
@@ -16,39 +17,40 @@ export const Category = () => {
   };
   useEffect(() => {
     const getcategories = async () => {
-      const reqData = await fetch("http://localhost:8082/categories");
-      const resData = await reqData.json();
-      console.log(resData);
-      setCategories(resData);
+      // const reqData = await fetch("http://localhost:8082/categories");
+      // const resData = await reqData.json();
+      // console.log(resData);
+      // TODO remove categoriesData and uncomment above call
+      setCategories(categoriesData);
     };
     getcategories();
-  }, []);
+  }, [categoriesData]);
 
   const COLUMNS = [
     {
       Header: "Sr. No",
-      accessor: (_row, i) => i + 1,
+      accessor: (_row, i) => i + 1
     },
     {
       Header: "Category Name",
-      accessor: "categoryName",
+      accessor: "categoryName"
     },
     {
       Header: "Category Name(Kannada)",
-      accessor: "categoryNameK",
+      accessor: "categoryNameK"
     },
     {
       Header: "Code",
-      accessor: "categoryCode",
+      accessor: "categoryCode"
     },
     {
       Header: "Created Date",
-      accessor: "createdDate",
+      accessor: "createdDate"
     },
     {
       Header: "Actions",
       accessor: "actions",
-      Cell: (props) => {
+      Cell: props => {
         console.log(props.row.original.categoryCode);
         return (
           <div>
@@ -61,8 +63,8 @@ export const Category = () => {
             </span>
           </div>
         );
-      },
-    },
+      }
+    }
   ];
 
   return (

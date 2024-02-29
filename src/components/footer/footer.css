@@ -1,22 +1,37 @@
 .cms-footer-container {
   background-color: #1a1a1a;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
   padding: 10px 20px;
 }
 
-.cms-footer-container-contact-details {
+.cms-footer-container-contact-details,
+.cms-footer-container-social-media-details {
   font-size: 12px;
 }
 
-.cms-footer-container-contact-details-title {
+.cms-footer-container-contact-details-title,
+.cms-footer-container-social-media-details-title {
   font-size: 18px;
 }
 
-.cms-footer-container-contact-details-main {
+.cms-footer-container-contact-details-main,
+.cms-footer-container-social-media-details-main {
   font-size: 12px;
   margin-top: 10px;
 }
 
 .cms-footer-container-contact-details p {
+  margin: 0;
+}
+
+.cms-footer-container-social-media-details-main {
+  font-size: 14px;
+  text-align: end;
+}
+
+.cms-footer-container-social-media-details a {
+  display: block;
   margin: 0;
 }

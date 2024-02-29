@@ -48,8 +48,8 @@ function Header() {
             })}
           </Nav>
           <Nav className="justify-content-end">
-            <Nav.Link href="#signup" className="signup">
-              <Button variant="outline-light">Sign Up</Button>
+            <Nav.Link href="/signin" className="signup">
+              <Button variant="outline-light">SignIn</Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

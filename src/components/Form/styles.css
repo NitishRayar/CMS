@@ -1,0 +1,8 @@
+.cms-form {
+  width: 50%;
+  margin: 32px auto;
+}
+
+.cms-form > * {
+  margin: 16px;
+}

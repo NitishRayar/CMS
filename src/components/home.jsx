@@ -17,11 +17,21 @@ const Home = () => {
       </div>
       <div className="cms-achievemetns">
         <Button variant="dark">Our Achievements</Button>
-        <Card data={achievements} background="#fff" color="#1a1a1a" />
+        <Card
+          type="Achievements"
+          data={achievements}
+          background="#fff"
+          color="#1a1a1a"
+        />
       </div>
       <div className="cms-feature-events">
         <Button variant="dark">Feature Events</Button>
-        <Card data={achievements} background="#1a1a1a" color="#ff8c1a" />
+        <Card
+          type="Events"
+          data={achievements}
+          background="#1a1a1a"
+          color="#ff8c1a"
+        />
       </div>
       <div className="cms-footer">
         <Footer />

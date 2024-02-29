@@ -1,5 +1,7 @@
-const Place = () =>{
-    return<div>Place Page</div>;
-}
+import Form from "../Form/Form";
+
+const Place = () => {
+  return <Form type="Place" />;
+};
 
 export default Place;
